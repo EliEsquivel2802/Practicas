@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td, th{
+            border: 1px solid #000;
+        }
+        table{
+            border:1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu-nav">
+            <h1 class="main-title"> Pastelería</h1> 
+            <a class="nav-item" href="#Existencias">
+                Existencias
+            </a> <!--Nav item Existencias-->
+            <a href="#Pedidos" class="nav-item">
+                Pedidos
+            </a> <!--Nav item pedidos -->
+        </nav> <!--nav-->
+    </header>
+
+    <main class="main">
+        <h2 class="title"> INVENTARIO</h2>
+        <table class="addons-inventary">
+            <thead>
+                <tr>
+                    <th>Adornos</th>
+                    <th>Cantidad disponible</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Macarrones</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Trufas</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Figuras de fondant</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>Rebanas de Fruta</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+        </table> <!-- Inventario de adornos-->
+        <table class="tastes-inventary">
+            <thead>
+                <tr>
+                    <th>Sabores</th>
+                    <th>Cantidad disponible</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fresa</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Vainilla</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>50</td>
+                </tr>
+            </tbody>
+        </table> <!-- Inventario de Sabores-->
+        <hr>
+
+        <h2 class="title">PEDIDOS</h2>
+        <table>
+            <tr>
+                <th>N° de pedido</th>
+                <th>Sabor del pastel</th>
+                <th>Adornos del pastel</th>
+                <th>Descripción</th>
+                <th>Información del cliente</th>
+            </tr>
+            <tr>
+                <td>143</td>
+                <td>Fresa/chocolate</td>
+                <td>Macarrones</td>
+                <td>Marmolado de fresa y chocolate</td>
+                <td>Luis Lopez correo: luislopez@email.com tel: 23456323</td>
+            </tr>
+            <tr>
+                <td>144</td>
+                <td>/vainillachocolate</td>
+                <td>Rebanadas de fruta/macarrones/trufas</td>
+                <td>Pastel de tres leches en forma de corazón</td>
+                <td>Miguel correo: Miguel@email.com tel: 8923323</td>
+            </tr>
+            <tr>
+                <td>145</td>
+                <td>Chocholate</td>
+                <td>trufas</td>
+                <td>Pastel de extra chocolate</td>
+                <td>Karina Perez correo: KarinaP@email.com tel: 08369283</td>
+            </tr>
+        </table> <!--Tabla de pedidos-->
+    </main>
+    <hr>
+
+    <footer class="footer">
+        <address class="contact">
+            Direccion: avenida pastelera 234
+            <br>
+            Tel: 121342455
+            <br>
+            Horarios de atención:
+            <br>
+            Lunes a viernes 10:00am - 7:00pm
+            <br>
+            Sábado: 10:00am - 2:00 pm
+            <br>
+            Domingo: Cerrado, solo entrega de pedidos anticipados.
+        </address>
+    </footer> <!--footer-->
+</body>
+</html>

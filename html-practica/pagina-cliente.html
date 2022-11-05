@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu-nav">
+            <h1 class="main-title"> Pastelería</h1> 
+            <a class="nav-item" href="#Sabores">
+                Sabores
+            </a> <!--Nav item sabores-->
+            <a href="#Adornos" class="nav-item">
+                Adornos
+            </a> <!--Nav item adornos-->
+            <a href="#Pedidos" class="nav-item">
+                Pedidos
+            </a> <!--Nav item pedidos -->
+        </nav> <!--nav-->
+    </header> <!--Aqui termina el header-->
+
+    <main class="main">
+        <section class="tastes" id="Sabores">
+            <h2 class="title"> Estos son los diferentes sabores que tenemos para tu pastel. </h2>
+            <p class="taste-item"> Fresa <br> $25 </p>
+            <p class="taste-item"> Vainilla <br> $23</p>
+            <p class="taste-item"> Chocolate <br> $30</p>
+        </wection> <!-- Aqui termina seccion tastes-->
+        <section class="addons" id="Adornos">
+            <h2 class="title"> Estos son algunos de los adornos que podemos incluir en tu pastel
+            </h2>
+            <p class="addons-item"> Figuras de fondant 20 cm <br> $100</p>
+            <p class="addons-item"> Macarrones <br> $120 </p>
+            <p class="addons-item"> Trufas <br>
+            $150</p>
+            <p class="addons-item"> Rebanadas de fruta <br> $230 </p>
+        </section> <!--Aqui terminan la seccion adornos-->
+        <h2 class="title" id="Pedidos"> Envíanos tu pedido</h2>
+        <form action="" method="POST">
+            <div class="form-item">
+                <label for="Name">Nombre:</label>
+                <input type="text" id="Name" name="nombre">
+            </div> <!-- item nombre-->
+            <div class="form-item">
+                <label for="Cellphone">Número de teléfono: </label>
+                <input type="tel" id="Cellphone" name="cellphone">
+            </div> <!-- item Telefono-->
+            <div class="form-item">
+                <label for="Email">Correo:</label>
+                <input type="email" id="Email" name="email">
+            </div> <!-- Correo-->
+            <div class="form-item">
+                <label for="Description"> Descripción: </label>
+                <br>
+                <textarea name="description" id="Description" cols="30" rows="10"></textarea>
+            </div> <!-- item descripcion-->
+            <div class="form-item">
+                <label for="Tastes-addons"> Personaliza tu pastel</label>
+                <div class="taste">
+                    <h3 class="title-2"> Selecciona uno o mas sabores</h3>
+                    <label> <input type="checkbox" id="chocolate"> Chocolate</label>
+                    <label> <input type="checkbox" id="Fresa"> Fresa</label>
+                    <label> <input type="checkbox" id="Vainilla"> Vainilla</label>
+                </div> <!--Sabores-->
+                <div class="addons">
+                    <h3 class="title-2"> Selecciona uno o mas adornos</h3>
+                    <label> <input type="checkbox" id="Macarrones"> Macarrones</label>
+                    <label> <input type="checkbox" id="Fondant"> Figuras de fondant</label>
+                    <label> <input type="checkbox" id="Trufas"> Trufas</label>
+                    <label> <input type="checkbox" id="Frutas"> Rebanadas de fruta</label>
+                </div> <!--Adornos-->
+            </div> <!-- item sabores y adornos-->
+        </form> <!-- Formulario-->
+    </main> <!-- Aqui termina el main-->
+
+    <footer class="footer">
+        <address class="contact">
+            Direccion: avenida pastelera 234
+            <br>
+            Tel: 121342455
+            <br>
+            Horarios de atención:
+            <br>
+            Lunes a viernes 10:00am - 7:00pm
+            <br>
+            Sábado: 10:00am - 2:00 pm
+            <br>
+            Domingo: Cerrado, solo entrega de pedidos anticipados.
+        </address>
+    </footer> <!--Aqui termina el footer-->
+</body>
+</html >
